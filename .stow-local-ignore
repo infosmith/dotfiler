@@ -1,0 +1,10 @@
+\.git
+\.gitignore
+^/.gitkeep
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+^/.DS_Store
+\.vscode
+\.idea
