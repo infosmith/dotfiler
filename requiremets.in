@@ -1,0 +1,4 @@
+click
+pip-tools
+pre-commit
+pytest
