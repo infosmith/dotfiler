@@ -1,2 +1,4 @@
+[alias]
+    branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n\t%(color:red)%(authordate:relative)\t%(color:white)%(authorname)\" refs/remotes
 [commit]
     template = ~/.gitmessage
