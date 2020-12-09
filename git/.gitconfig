@@ -7,3 +7,4 @@
 	attributesfile = ~/.gitattributes
 	autocrlf = input
 	editor = nano
+	excludesfile = ~/.gitignore
