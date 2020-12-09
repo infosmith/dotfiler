@@ -8,3 +8,4 @@
 	autocrlf = input
 	editor = nano
 	excludesfile = ~/.gitignore
+	precomposeUnicode = true
