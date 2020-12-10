@@ -1,9 +1,9 @@
 [alias]
-    cane = commit --amend --no-edit
     ce = commit --edit
+    cane = commit --amend --no-edit
     branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n\t%(color:red)%(authordate:relative)\t%(color:white)%(authorname)\" refs/remotes
-	dfc = difftool --no-gui
 	dfg = difftool --guid
+	dfc = difftool --no-gui
 [commit]
     template = ~/.gitmessage
 [core]
