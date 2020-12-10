@@ -4,6 +4,7 @@
     branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n\t%(color:red)%(authordate:relative)\t%(color:white)%(authorname)\" refs/remotes
     dfg = difftool --guid
     dfc = difftool --no-gui
+    mt = mergetool --gui
 [commit]
     template = ~/.gitmessage
 [core]
@@ -23,3 +24,11 @@
     cmd = meld $LOCAL $REMOTE
 [merge]
     ff = only
+    guitool = meld
+[merge]
+    guitool = meld
+[mergetool]
+    keepBackup = false
+[mergetool "meld"]
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+    trustExitCode = true
