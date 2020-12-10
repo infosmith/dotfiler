@@ -1,6 +1,8 @@
 [alias]
     cane = commit --amend --no-edit
     branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n\t%(color:red)%(authordate:relative)\t%(color:white)%(authorname)\" refs/remotes
+	dfc = difftool --no-gui
+	dfg = difftool --guid
 [commit]
     template = ~/.gitmessage
 [core]
@@ -9,3 +11,12 @@
 	editor = nano
 	excludesfile = ~/.gitignore
 	precomposeUnicode = true
+[diff]
+	guitool = meld
+    tool = icdiff
+[difftool]
+    prompt = false
+[difftool "icdiff"]
+	cmd = icdiff $LOCAL $REMOTE
+[difftool "meld"]
+    cmd = meld $LOCAL $REMOTE
