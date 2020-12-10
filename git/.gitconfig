@@ -2,22 +2,22 @@
     ce = commit --edit
     cane = commit --amend --no-edit
     branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n\t%(color:red)%(authordate:relative)\t%(color:white)%(authorname)\" refs/remotes
-	dfg = difftool --guid
-	dfc = difftool --no-gui
+    dfg = difftool --guid
+    dfc = difftool --no-gui
 [commit]
     template = ~/.gitmessage
 [core]
-	attributesfile = ~/.gitattributes
-	autocrlf = input
-	editor = nano
-	excludesfile = ~/.gitignore
-	precomposeUnicode = true
+    attributesfile = ~/.gitattributes
+    autocrlf = input
+    editor = nano
+    excludesfile = ~/.gitignore
+    precomposeUnicode = true
 [diff]
-	guitool = meld
+    guitool = meld
     tool = icdiff
 [difftool]
     prompt = false
 [difftool "icdiff"]
-	cmd = icdiff $LOCAL $REMOTE
+    cmd = icdiff $LOCAL $REMOTE
 [difftool "meld"]
     cmd = meld $LOCAL $REMOTE
