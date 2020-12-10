@@ -57,3 +57,10 @@ git_config_ssh() {
     firefox ;;
   esac
 }
+
+alias gitgui=git_open_gui
+git_open_gui() {
+  case "$OSTYPE" in
+  linux*) nohup cola $1 &>/dev/null &;;
+  esac
+}
