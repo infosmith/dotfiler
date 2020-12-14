@@ -32,3 +32,6 @@
 [mergetool "meld"]
     cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
     trustExitCode = true
+[user]
+	email = 3581457+infosmith@users.noreply.github.com
+	name = infosmith
