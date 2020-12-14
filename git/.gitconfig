@@ -5,6 +5,15 @@
     dt = difftool --gui
     dtc = difftool --no-gui
     mt = mergetool --gui
+    sa = stash apply
+    sai = "!f() { git stash apply stash@{$1}; }; f"
+    save = stash --all
+    sb = "!f() { git stash branch $1; }; f"
+    sd = "!f() { read -p 'Drop all? [y/n]: ' d; case $d in y) git stash drop;; n) echo 'aborting';; esac; }; f"
+    sdi = "!f() { git stash drop stash@{$1}; }; f"
+    sl = stash list
+    sp = stash pop
+    spi = "!f() { git stash pop stash@{$1}; }; f"
 [commit]
     template = ~/.gitmessage
 [core]
