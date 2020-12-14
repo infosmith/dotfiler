@@ -1,7 +1,7 @@
 [alias]
     ce = commit --edit
     cane = commit --amend --no-edit
-    branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n\t%(color:red)%(authordate:relative)\t%(color:white)%(authorname)\" refs/remotes
+    branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(color:bold)%(refname:short)\n  %(authorname) %(color:red)%(authordate:relative)%(color:white)\" refs remotes
     dfg = difftool --guid
     dfc = difftool --no-gui
     mt = mergetool --gui
