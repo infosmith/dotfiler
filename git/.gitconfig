@@ -5,6 +5,7 @@
     dt = difftool --gui
     dtc = difftool --no-gui
     mt = mergetool --gui
+    precommit= "!f() { $DOTFILES/storage/git/precommit/install.sh $1; }; f"
     sa = stash apply
     sai = "!f() { git stash apply stash@{$1}; }; f"
     save = stash --all
