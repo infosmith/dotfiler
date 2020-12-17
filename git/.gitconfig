@@ -15,6 +15,7 @@
     sl = stash list
     sp = stash pop
     spi = "!f() { git stash pop stash@{$1}; }; f"
+    unpull = reset --merge ORIG_HEAD
 [commit]
     template = ~/.gitmessage
 [core]
