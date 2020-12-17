@@ -51,6 +51,23 @@ File Descriptions
     knowing their complete path then more significant vulnerabilities exist on
     the host where this file resides.
 
+
+Integrations of Interest
+------------------------
+* `conventional-changelog  <https://github.com/conventional-changelog/conventional-changelog>`_
+* `diff-so-fancy  <https://github.com/so-fancy/diff-so-fancy>`_
+* `git-crypt  <https://github.com/AGWA/git-crypt>`_
+* `git-extras  <https://github.com/tj/git-extras>`_
+* `git-open  <https://github.com/paulirish/git-open#oh-my-zsh>`_
+* `git-recent  <https://github.com/paulirish/git-recent>`_
+* `GitHub Résumé <https://github.com/resume/resume.github.com>`_
+* `linty-fresh <https://github.com/lyft/linty_fresh>`_
+* `overcommit <https://github.com/sds/overcommit>`_
+* `reviewdog <https://github.com/reviewdog/reviewdog>`_
+* `semantic-release  <https://github.com/semantic-release/semantic-release>`_
+* `standard-version <https://github.com/conventional-changelog/standard-version>`_
+
+
 References
 ----------
 
