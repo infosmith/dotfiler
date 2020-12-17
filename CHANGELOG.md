@@ -5,9 +5,36 @@ All notable changes to infosmith/dotfiles will be documented here.
 The file format is based on [Keep a Changelog][changelog],
 and this project adheres to [Semantic Versioning][semver].
 
-## [Unreleased]
+# [0.2.0](/compare/v0.1.0...v) (2020-12-17)
 
-## [0.1.0] - 2020-12-7
+### Features
+
+* **git:** add alias for amending previous commit
+* **git:** add alias for listing branches
+* **git:** add alias for removing pulled changes
+* **git:** add aliases for stash commands
+* **git:** add commit message template
+* **git:** background git cola
+* **git:** configure git ssh keys
+* **git:** configure git user
+* **git:** enforce end of line normalization
+* **git:** ignore GitBook files
+* **git:** ignore Node.js files
+* **git:** ignore Packer files
+* **git:** ignore Python files
+* **git:** ignore SASS files
+* **git:** ignore Terraform files
+* **git:** integrate pre-commit framework
+* **git:** integrate preferred diff tools
+* **git:** integrate preferred merge tool
+* **git:** prevent .gitattributes encryption
+* **git:** revert MacOS decomposed unicode filenames
+* **git:** simplify ssh key generation and uploading
+* **git:** specify editor used for messages
+
+
+
+## [0.1.0]() - 2020-12-7
 
 ### Added
 
