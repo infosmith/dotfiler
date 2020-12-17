@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to {{cookiecutter.project_name}} will be documented here.
+All notable changes to infosmith/dotfiles will be documented here.
 
 The file format is based on [Keep a Changelog][changelog],
 and this project adheres to [Semantic Versioning][semver].
